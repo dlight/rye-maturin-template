@@ -21,3 +21,6 @@ dev-dependencies = []
 python-source = "python"
 module-name = "my_project._lowlevel"
 features = ["pyo3/extension-module"]
+
+[project.scripts]
+my-project = 'my_project:main'

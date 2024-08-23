@@ -8,5 +8,8 @@ wheels/
 # Rust
 target/
 
+# Maturin
+*.cpython-*.so
+
 # venv
 .venv
